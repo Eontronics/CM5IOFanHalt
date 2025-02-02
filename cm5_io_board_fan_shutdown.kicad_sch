@@ -2147,7 +2147,7 @@
 		(uuid "1c310630-1888-49e7-8958-ee480a26f4eb")
 	)
 	(junction
-		(at 210.82 58.42)
+		(at 215.9 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2868f560-b2a7-45ec-bcb6-b83c49ca5928")
@@ -2348,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 50.8) (xy 213.36 50.8)
+			(xy 215.9 50.8) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2498,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 58.42) (xy 210.82 86.36)
+			(xy 215.9 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ccc55f-96e3-49ba-b81b-16165e730259")
+	)
+	(wire
+		(pts
+			(xy 215.9 58.42) (xy 215.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2615,6 +2625,16 @@
 			(type default)
 		)
 		(uuid "68ea1952-6e16-48cd-8fed-790fd7f0e57c")
+	)
+	(wire
+		(pts
+			(xy 215.9 68.58) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b964045-24ce-4380-84a7-8c97acfb1e34")
 	)
 	(wire
 		(pts
@@ -2758,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 58.42) (xy 213.36 58.42)
+			(xy 215.9 58.42) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2795,16 +2815,6 @@
 			(type default)
 		)
 		(uuid "906c6a9b-1ad7-4f5f-8e4c-3165b673f1b1")
-	)
-	(wire
-		(pts
-			(xy 220.98 58.42) (xy 223.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93533e73-8e2e-43b8-82cc-646e06bd65c0")
 	)
 	(wire
 		(pts
@@ -2848,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 58.42) (xy 210.82 50.8)
+			(xy 215.9 58.42) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 231.14 50.8)
+			(xy 226.06 50.8) (xy 231.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4309,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 58.42 90)
+		(at 215.9 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4318,23 +4328,25 @@
 		(fields_autoplaced yes)
 		(uuid "5398e533-909b-4026-850f-f40cf9eea0bf")
 		(property "Reference" "R5"
-			(at 217.17 62.23 90)
+			(at 218.44 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "6.8k"
-			(at 217.17 64.77 90)
+		(property "Value" "20k"
+			(at 218.44 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.17 60.198 90)
+			(at 217.678 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 58.42 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4364,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 58.42 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4748,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 50.8 90)
+		(at 222.25 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4745,7 +4757,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f8789ec-8b85-4de8-8c2a-836a736da8d6")
 		(property "Reference" "R1"
-			(at 217.17 44.45 90)
+			(at 222.25 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4765,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 217.17 46.99 90)
+			(at 222.25 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.17 52.578 90)
+			(at 222.25 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 50.8 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 50.8 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,15 +5781,15 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 228.6 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a83e34c1-83fc-41eb-8248-43e3ed1a0e0e")
 		(property "Reference" "Q1"
-			(at 234.95 57.1499 0)
+			(at 234.95 59.6901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5798,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 234.95 59.6899 0)
+			(at 234.95 57.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 60.325 0)
+			(at 233.68 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5818,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 233.68 62.23 0)
+			(at 233.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
