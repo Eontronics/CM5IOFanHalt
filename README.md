@@ -1,3 +1,5 @@
+<img src="./img/cm5_io_board_fan_shutdown_render_front.jpg" alt="PCB front render" height="300"/>
+
 # CM5 IO Board Fan Halt
 A small, low cost add-on module for the Raspberry Pi Compute Module 5 IO Board to halt the fan from spinning after shutting the Pi down!
 
