@@ -2,7 +2,7 @@
 
 # CM5 IO Board Fan Halt
 A small, low cost add-on module for the Raspberry Pi Compute Module 5 IO Board to halt the fan from spinning after shutting the Pi down!
-Developent logs of the hardware can be found on the [Hackaday.io project](https://hackaday.io/project/202403-cm5-io-board-fan-halt).
+Development logs of the hardware can be found on the [Hackaday.io project page](https://hackaday.io/project/202403-cm5-io-board-fan-halt).
 
 
 ## What is it for?
